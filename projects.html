@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Armando Beas Jr. | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="projects/css/lightbox.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo-box">
+            <h1>AB</h1>
+        </div>
+        <div class="header-right">
+            <div class="resume-bar">
+                <a href="Armando Beas Resume.pdf" download="Armando_Beas_Resume.pdf" class="resume-link">DOWNLOAD RESUME (PDF)</a>
+            </div>
+            <nav>
+                <ul>
+                    <li class="navItem"><a href="index.html">HOME</a></li>
+                    <li class="navItem"><a href="about.html">ABOUT</a></li>
+                    <li class="navItem"><a href="experience.html">EXPERIENCE</a></li>
+                    <li class="navItem"><a href="projects.html">PROJECTS</a></li>
+                    <li class="navItem"><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-text">
+                <h2>Technical Project Showcase</h2>
+                <p>Click on any project card below to open the interactive lightbox gallery and view high-resolution assembly notes.</p>
+            </div>
+        </section>
+
+        <section class="portfolio-container">
+            <div class="portfolio-grid">
+                
+                <a href="projects/images/model-cad.png" data-lightbox="my-portfolio" data-title="3D CAD Design Model - Custom Prototyping Wedge">
+                    <img src="projects/images/model-cad.png" alt="3D CAD Design Model">
+                </a>
+                <a href="projects/images/model-3d.jpg" data-lightbox="my-portfolio" data-title="Physical 3D Print - Finished Gray Filament Prototype">
+                    <img src="projects/images/model-3d.jpg" alt="Finished 3D Printed Part">
+                </a>
+                
+                <a href="projects/images/arduino-1.jpg" data-lightbox="my-portfolio" data-title="Arduino Microcontroller Array - LCD Temperature Module Display">
+                    <img src="projects/images/arduino-1.jpg" alt="Arduino Temperature Display">
+                </a>
+                <a href="projects/images/arduino-2.jpg" data-lightbox="my-portfolio" data-title="Circuit Prototyping - Breadboard Potentiometer & Jumper Setup">
+                    <img src="projects/images/arduino-2.jpg" alt="Breadboard Potentiometer Circuit">
+                </a>
+                <a href="projects/images/bridge-1.jpg" data-lightbox="my-portfolio" data-title="Balsa Wood Truss Bridge Assembly - Multi-Angle Structural Verification">
+                    <img src="projects/images/bridge-1.jpg" alt="Balsa Wood Truss Bridge Assembly">
+                </a>
+                <a href="projects/images/bridge-2.jpg" data-lightbox="my-portfolio" data-title="Engineering Design Graphics - Structural Bridge Truss Blueprint">
+                    <img src="projects/images/bridge-2.jpg" alt="Bridge Truss Technical Blueprint">
+                </a>
+                <a href="projects/images/structure.jpg" data-lightbox="my-portfolio" data-title="Geometric Architecture Study - Node and Truss Toothpick Framework">
+                    <img src="projects/images/structure.jpg" alt="Geometric Node Model">
+                </a>
+                <a href="projects/images/hologram.jpg" data-lightbox="my-portfolio" data-title="Optical Engineering Prototype - Clear Prism Reflection Display Assembly">
+                    <img src="projects/images/hologram.jpg" alt="Optic Prism Hologram Prototype">
+                </a>
+                <a href="projects/images/rover.jpg" data-lightbox="my-portfolio" data-title="Robotics Mobility System - Battery Powered Custom Mechanical Vehicle Chassis">
+                    <img src="projects/images/rover.jpg" alt="Battery Powered Vehicle Chassis">
+                </a>
+
+            </div>
+        </section>
+    </main>
+
+         <footer>
+        <p>&copy; 2026 Armando Beas Jr. | San Jose, CA</p>
+        <div class="social-links">
+            <a href="https://www.linkedin.com">LinkedIn</a> | <a href="https://www.github.com">GitHub</a> | <a href="https://www.google.com">Email</a>
+        </div>
+        </footer>
+
+    <script src="projects/js/lightbox-plus-jquery.min.js"></script>
+
+    <script>
+        lightbox.option({
+            'alwaysShowNavOnTouchDevices': true,
+            'wrapAround': true,
+            'resizeDuration': 200,
+            'fadeDuration': 300
+        })
+    </script>
+
+</body>
+</html>
