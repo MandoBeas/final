@@ -200,7 +200,9 @@ footer {
         padding: 20px 5%;
     }
 }
-
+/* ==========================================================================
+   MEDIA QUERY 2: MOBILE LANDSCAPE BREAKPOINT
+   ========================================================================== */
 @media screen and (max-width: 932px) and (orientation: landscape) {
     header {
         flex-direction: row;
@@ -234,7 +236,9 @@ footer {
         max-width: 320px;
     }
 }
-
+/* ==========================================================================
+   MEDIA QUERY 3: TABLET BREAKPOINT (Small Desktop View)
+   ========================================================================== */
 @media screen and (min-width: 768px) {
     header {
         flex-direction: row;
@@ -260,7 +264,9 @@ footer {
         flex-wrap: wrap;
     }
 }
-
+/* ==========================================================================
+   MEDIA QUERY 4: LARGE DESKTOP BREAKPOINT
+   ========================================================================== */
 @media screen and (min-width: 1024px) {
     .hero {
         padding: 60px 10%;
